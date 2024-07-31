@@ -4,6 +4,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import { Metadata } from 'next'
+// Estou fazendo um teste e colocando uma variavel para testa comit em 2 pc.
+const nome = 'jonas'
+console.log(nome)
 
 async function getFeaturedProducts(): Promise<Product[]> {
   const response = await api('/products/featured', {
