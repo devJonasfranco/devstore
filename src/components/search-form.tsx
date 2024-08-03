@@ -38,3 +38,12 @@ export function SearchForm() {
     </form>
   )
 }
+
+// function SearchPage() {
+//   return (
+//     <Suspense fallback={<div>Loading...</div>}>
+//       <SearchForm />
+//     </Suspense>
+//   )
+// }
+// export default Se
